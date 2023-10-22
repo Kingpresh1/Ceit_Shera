@@ -1,0 +1,28 @@
+.box{
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(10, 190, 49);
+    position: relative;
+    margin-top: 3px;
+    border: 2.1px solid #000000;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(253, 252, 252);
+    border-radius: 300px;
+    margin-left: 328px;
+    margin-top: 80px;
+    position: fixed;
+    border: solid 2.2px #000000;
+}
+
+p{
+    text-align: center;
+    font-size:10rem;
+    font-weight:2000;
+    color: rgb(241, 143, 15);
+    margin-top: 60px;
+    position: relative;
+}
