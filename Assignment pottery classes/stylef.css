@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    
+ }
+
+
+  
+.bg{
+  background-image: url("img/my3.jpg");
+ background-size:cover; 
+/* height: 5%;
+  width: 5%;
+}*/
+
+.links{
+  display: flex;
+  padding: 1.5rem;
+  gap: 3.5rem;
+  
+  
+}
+
+.links a{
+  padding: 0.5rem;
+  font-size:small;
+  font-weight: 500;
+  font-family: Tahoma, Geneva, Verdana;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.links .yonobi{
+  display: flex;
+  padding-left: 7rem;
+  
+}
+
+.links .yonobi a{
+  font-weight: 1000;
+  font-size: medium;
+}
+
+.linksR{
+  display: flex;
+  color: azure;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.nav {
+  display: flex;
+  color: azure;
+  padding-left: 4rem;
+
+}
+
+.USD{
+  border-style: none;
+  border-color: transparent;
+  background-color: transparent;
+  color: azure;
+}
+.nav .linksR{
+padding-left: 13rem;
+
+}
+
+.nav .linksR a{
+  display: flex;
+  color: azure;
+ text-decoration: none;
+}
+
+.hero-section{
+  justify-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: Tahoma, Geneva, Verdana;
+  color: antiquewhite;
+}
+
+.hero-section a{
+  justify-content: center;
+  padding: 2rem;
+}
+
+.text-section{
+  justify-content: center;
+  text-align: center;
+  padding: 0.2rem;
+  font-family: Tahoma, Geneva, Verdana;
+  color: antiquewhite;
+}
+
+.more{
+padding-top: 17rem;
+justify-content: center;
+text-align: center;
+}
+
+.more .text-section h5 a{
+  padding-top: 2rem;
+}
+
+.see-more{
+  justify-content: center;
+  padding: 1.5rem;
+  font-family: Tahoma, Geneva, Verdana;
+  color: rgb(10, 6, 1);
+  font-weight: 550;
+}
+
+.see .see-more{
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  
+}
+
+.see{
+  padding: 1.5rem;
+}
+
+.linksR .USD{
+  border: 0cap;
+  background-origin: padding-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.account{
+  height: 20px;
+  width: 20px;
+  color: azure;
+}
+
+.search{
+  height: 25px;
+  width: 35px;
+  color: azure;
+  
+}
+
+.login{
+  height: 21.5px;
+  width: 18px;
+  color: azure;
+  
+}
