@@ -1,0 +1,102 @@
+.header{
+    display: flex;
+    height: 2rem;
+    width: 80rem;
+    border-bottom: 2px solid rgb(179, 177, 180);
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(11, 11, 160);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .menu {
+    color: rgb(10, 10, 155);
+    gap: 20px;
+    display: flex;
+    margin-left: 10rem;
+ }
+
+/*
+*/
+
+.header h3{
+    font-size:1.7rem;
+    color: rgb(7, 7, 119);
+    margin-top: -8px ;
+    margin-left: 13rem;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+   }
+
+.pages{
+    border: none;
+    background-color: transparent;
+    color: rgb(7, 7, 150);
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header-icon{
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.full-body{
+    display: flex;
+    justify-content: space-around;
+    height: 40rem;
+    width: 80rem;
+    background-color: rgb(250, 248, 245);
+}
+
+.body{
+    margin-top: 10rem;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-left: 5rem;
+}
+
+
+.explore{
+    
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+    border-radius: 15px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.learn{
+    
+    background-color: rgb(168, 168, 172);
+    color: rgb(4, 8, 8);
+    padding: 8px;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.body h1{
+    color: rgb(20, 20, 117);
+    font-size: 2rem;
+}
+
+.body h5{
+    
+    color: rgb(6, 6, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.round-border{
+    height: 30rem;
+    width: 20rem;
+    background-color: brown;
+    background-image: url('bd.jpeg');
+    border-radius: 15px;
+    margin: 7rem 7rem 0rem 0rem ;
+}
